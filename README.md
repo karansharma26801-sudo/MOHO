@@ -8,7 +8,7 @@ i can organize content , style it cleanly, and keep things consistent across pag
 <ul>index.html - Contain header with nav bar includes homepage information like what we does</ul>
 
 <br>
-about.html - contains about us page
+<ol>about.html - contains about us page</ol>
 <br>
 services.html - contains services page which includes what services we provide
 <br>
