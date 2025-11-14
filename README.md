@@ -6,10 +6,9 @@ i can organize content , style it cleanly, and keep things consistent across pag
 # Pages included
 <br>
 <ul>index.html - Contain header with nav bar includes homepage information like what we does</ul>
-
 <br>
-<ol>about.html - contains about us page</ol>
+<ul>about.html - contains about us page</ul>
 <br>
-services.html - contains services page which includes what services we provide
+<ul>services.html - contains services page which includes what services we provide</ul>
 <br>
-contact.html - contains contact us page which includes how to conatact us
+<ul>contact.html - contains contact us page which includes how to conatact us</ul>
