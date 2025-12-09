@@ -1,4 +1,3 @@
-/* --- Global Styles --- */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,10 +10,10 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    overflow: hidden; /* Clear floats */
+    overflow: hidden; 
 }
 
-/* --- Header & Navigation --- */
+
 header {
     background: #35424a;
     color: #ffffff;
@@ -61,7 +60,7 @@ header a.active {
     font-weight: bold;
 }
 
-/* --- Main Content Sections --- */
+
 main {
     padding: 20px 0;
 }
@@ -87,7 +86,7 @@ main {
     border-radius: 0 8px 8px 0;
 }
 
-/* --- Button Style --- */
+
 .button {
     display: inline-block;
     background: #e8491d;
@@ -103,7 +102,7 @@ main {
     background: #cf3712;
 }
 
-/* --- Footer --- */
+
 footer {
     padding: 20px;
     margin-top: 20px;
@@ -112,7 +111,7 @@ footer {
     text-align: center;
     border-top: 3px solid #e8491d;
 }
-/* New style for the services page */
+
 .service-list {
     margin-bottom: 25px;
     padding: 15px;
@@ -124,7 +123,7 @@ footer {
     color: #35424a;
     margin-top: 0;
 }
-/* --- Styles for Contact Form (contact.html) --- */
+
 .contact-form {
     padding: 20px;
 }
@@ -147,7 +146,7 @@ footer {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+    box-sizing: border-box; 
     font-size: 16px;
     transition: border-color 0.3s;
 }
@@ -159,7 +158,12 @@ footer {
 }
 
 .contact-form-container .button {
-    width: 100%; /* Make the submit button full width */
+    width: 100%; 
     font-size: 18px;
     cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
 }
